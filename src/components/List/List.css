@@ -1,0 +1,9 @@
+.each-item-wrapper {
+    display: grid;
+    grid-gap: 30px;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    height: calc(100vh - 125px);
+    
+  }
+  
